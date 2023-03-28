@@ -1,0 +1,100 @@
+body{
+    padding: 50px 150px 50px 150px;
+    margin: 0;
+    background-image: url("background-green.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.left-side h1{
+    font-size: 70px;
+    color: #9ddf9d;
+    text-align: left;
+    margin: 0px;
+    padding:0;
+    font-family: 'Comfortaa', cursive;
+}
+.left-side{
+    width:60%;
+}
+.left-side p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color:#043204;
+    text-align: left;
+    margin: 0px;
+    padding:0px 0px 15px 0px;
+}
+.table-inf{
+    border: 3px solid white;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color:#043204;
+    text-align: left;
+}
+.table-inf a{
+    text-decoration: none;
+    color:#043204;
+}
+td{
+    border: 3px solid white;
+    padding: 10px 10px 10px 10px;
+}
+.right-side img{
+    width: 550px;
+    height: auto;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.contacts-btn{
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+    background-color: transparent;
+    color: #043204;
+    border: 3px solid #043204;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}
+.contacts-btn:hover{
+    background-color: #043204;
+    color: #9ddf9d;
+    border: 5px solid #043204;
+}
+
+/*next site - form*/
+.contacts-form{
+    margin: 20px 150px 20px 150px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+}
+.input-form{
+    padding-bottom: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.input-form label{
+    padding-right: 10px;
+}
+#btn{
+    background-color: transparent;
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    border: 3px solid #043204;
+    border-radius: 10px;
+    color:#043204;
+}
+#name, #email{
+    font-size: 40px;
+}
